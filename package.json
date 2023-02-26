@@ -1,0 +1,15 @@
+{
+  "name": "nodejspractica_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eventos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/RaudelValec/PracticaNodeJS_1.git"
+  },
+  "author": "Enrique Valencia",
+  "license": "ISC"
+}
