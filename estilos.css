@@ -1,0 +1,29 @@
+.formulario {
+  background-color: #f2e5ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  background-color: #4d148c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
