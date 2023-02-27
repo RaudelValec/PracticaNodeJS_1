@@ -11,5 +11,9 @@
     "url": "git remote add origin https://github.com/RaudelValec/PracticaNodeJS_1.git"
   },
   "author": "Enrique Valencia",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0"
+  }
 }
