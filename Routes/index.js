@@ -24,7 +24,7 @@ router.get('/about', (req, res) => {
       email: inputEmail,
       password: inputPassword
     });
-    user.save((err, res) => {
+    user.save((err, saveUser) => {
         if (err) return console.error(err);
     
         console.log('Data inserted into database');
@@ -32,7 +32,15 @@ router.get('/about', (req, res) => {
       });
     });
 
-
+    router.get('/consulta',(req,res)=>{
+      user.find({},(error,result)=>{
+        if(error){
+          console.log(error);
+        }else{
+          
+        }
+      });
+    });
 
 
 module.exports=router;
